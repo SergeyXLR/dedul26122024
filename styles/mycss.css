@@ -1,0 +1,143 @@
+.navbar {
+    margin: 0;
+    padding: 0;
+}
+
+/* ok */
+body {
+    background-color: rgb(179, 167, 153)
+}
+
+/* ok */
+p {
+    color: rgb(255, 255, 255);
+}
+
+/* ок */
+.nav-link {
+    color: rgb(255, 255, 255);
+}
+
+/* ок */
+.navbar-nav .nav-link.active {
+    color: rgb(60, 49, 37);
+}
+
+/* ok */
+.container-fluid {
+    background-color: rgb(139, 127, 113)
+}
+
+/* ок */
+.span {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-brand {
+    color: rgb(255, 255, 255);
+}
+
+/* ok */
+.navbar-nav {
+    align-items: center;
+}
+
+/* ok */
+
+
+.justified-text {
+    text-align: center;
+    text-indent: 30px;
+}
+
+
+.sidebar {
+    text-align: center;
+    padding-top: 35px;
+}
+/* ok */
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+/* ok строка 755 убирает индикатор */
+.slyde-text,
+.footer-txt {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+/* ok  низ отступ MSV и текст описание */
+
+.row {
+    padding: 15px;
+}
+
+.dedul {
+    font-size: 1.5em;
+    padding-top: 0px;
+}
+
+.tel-navbar {
+    color: aliceblue;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    padding-right: 7px;
+    text-align: center;
+}
+
+.tel-navbar:active {
+    color: rgb(0, 80, 9);
+    /* Цвет ссылки при нажатии */
+}
+
+.navbar-toggler {
+    color: rgb(255, 255, 255);
+
+}
+
+.svadba1,
+.svadba2 {
+    text-align: justify;
+    text-indent: 2em;
+}
+
+
+.makiiaz,
+.makiiaz2,
+.narash1,
+.techno1 {
+    text-align: justify;
+    text-indent: 2em;
+}
+
+.makiiaz0,
+.narash,
+.techno {
+    text-align: center;
+}
+
+.carousel-inner {
+    display: flex;
+    overflow: hidden; /* Скрывает выходящие за пределы элементы */
+    width: 100%; /* Ширина карусели */
+    max-width: 1100px; /* Максимальная ширина карусели */
+    margin: auto;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    max-height: 600px; /* Максимальная высота изображений */
+    object-fit: cover; /* Обрезает или растягивает изображение, чтобы оно соответствовало размеру */
+}
+
+.carousel-item {
+    flex: 0 0 auto; /* Убирает перенос элементов на новую строку */
+    width: 100%; /* Размер каждого элемента равен ширине карусели */
+}
+
